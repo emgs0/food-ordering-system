@@ -15,7 +15,7 @@ public class OrderId extends BaseId<UUID> {
      *
      * @param value The UUID value to be set as the identity of the order.
      */
-    protected OrderId(UUID value) {
+    public OrderId(UUID value) {
         super(value);
     }
 }

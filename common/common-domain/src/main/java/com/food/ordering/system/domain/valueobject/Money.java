@@ -9,6 +9,7 @@ public class Money {
      * We must remember, in DDD value objects are inmutable, thats why we declar amount as final
      */
     private final BigDecimal amount;
+    public static final Money ZERO = new Money(BigDecimal.ZERO);
 
     public Money(BigDecimal amount) {
         this.amount = amount;

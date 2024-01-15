@@ -12,7 +12,7 @@ public class OrderItemId extends BaseId <Long>{
      *
      * @param value The value to be set as the identity.
      */
-    protected OrderItemId(Long value) {
+    public OrderItemId(Long value) {
         super(value);
     }
 }

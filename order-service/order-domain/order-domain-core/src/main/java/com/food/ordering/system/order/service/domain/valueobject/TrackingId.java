@@ -10,7 +10,7 @@ public class TrackingId extends BaseId<UUID> {
      *
      * @param value The value to be set as the identity.
      */
-    protected TrackingId(UUID value) {
+    public TrackingId(UUID value) {
         super(value);
     }
 }

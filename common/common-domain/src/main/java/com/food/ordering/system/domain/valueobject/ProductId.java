@@ -9,7 +9,7 @@ public class ProductId extends BaseId<UUID>{
      *
      * @param value The value to be set as the identity.
      */
-    protected ProductId(UUID value) {
+    public ProductId(UUID value) {
         super(value);
     }
 }

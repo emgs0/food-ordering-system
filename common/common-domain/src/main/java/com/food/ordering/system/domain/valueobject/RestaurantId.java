@@ -8,7 +8,7 @@ public class RestaurantId extends BaseId<UUID> {
      *
      * @param value The value to be set as the identity.
      */
-    protected RestaurantId(UUID value) {
+    public RestaurantId(UUID value) {
         super(value);
     }
 }

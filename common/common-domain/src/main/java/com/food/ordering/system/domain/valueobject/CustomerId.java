@@ -8,7 +8,7 @@ public class CustomerId extends BaseId<UUID>{
      *
      * @param value The value to be set as the identity.
      */
-    protected CustomerId(UUID value) {
+    public CustomerId(UUID value) {
         super(value);
     }
 }
